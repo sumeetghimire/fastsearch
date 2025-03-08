@@ -10,7 +10,9 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0|^10.0|^11.0"
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/database": "^9.0|^10.0|^11.0",
+        "illuminate/cache": "^9.0|^10.0|^11.0"
     },
     "extra": {
         "laravel": {
@@ -28,13 +30,9 @@
             "email": "sumeetghimire2526@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/sumeetghimire/fastsearch"
-        }
-    ],
-    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.0.1",
     "keywords": [
         "laravel",
         "search",
