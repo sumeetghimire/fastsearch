@@ -13,8 +13,7 @@ FastSearch is a powerful Laravel package that accelerates search operations acro
 
 To install the FastSearch package, run the following command:
 
-```bash
-composer require sumeetghimire/fastsearch
+<code><pre>composer require sumeetghimire/fastsearch</pre></code>
 
 
 <h2>Example How to Use</h2>
