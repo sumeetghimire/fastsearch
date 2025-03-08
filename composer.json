@@ -14,6 +14,9 @@
         "illuminate/database": "^9.0|^10.0|^11.0",
         "illuminate/cache": "^9.0|^10.0|^11.0"
     },
+    "conflict": {
+        "illuminate/support": "<9.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -32,7 +35,7 @@
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": [
         "laravel",
         "search",
