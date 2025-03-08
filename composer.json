@@ -10,9 +10,9 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0|^10.0|^11.0",
-        "illuminate/database": "^9.0|^10.0|^11.0",
-        "illuminate/cache": "^9.0|^10.0|^11.0"
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0", 
+        "illuminate/database": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/cache": "^9.0|^10.0|^11.0|^12.0"
     },
     "conflict": {
         "illuminate/support": "<9.0"
@@ -35,7 +35,7 @@
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": [
         "laravel",
         "search",
