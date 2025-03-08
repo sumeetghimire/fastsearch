@@ -1,0 +1,46 @@
+{
+    "name": "sumeetghimire/fastsearch",
+    "description": "FastSearch is a powerful Laravel package that accelerates search operations across multiple database models. It allows for flexible keyword searching with support for exact and partial matches, caching, and easy integration with Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SumeetGhimire\\FastSearch\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SumeetGhimire\\FastSearch\\FastSearchServiceProvider"
+            ],
+            "aliases": {
+                "FastSearch": "SumeetGhimire\\FastSearch\\Facades\\FastSearch"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Sumeet Ghimire",
+            "email": "sumeetghimire2526@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sumeetghimire/fastsearch"
+        }
+    ],
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "search",
+        "database search",
+        "fast search",
+        "query optimization",
+        "search engine"
+    ]
+}
